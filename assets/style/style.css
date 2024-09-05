@@ -1,0 +1,55 @@
+header {
+    background-color: blueviolet;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;    
+}
+
+a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 0;
+    color: rgb(227, 227, 205);
+    font-weight: normal;
+}
+
+a:hover {
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: serif;
+    color: rgb(69, 24, 27);
+    padding-top: 20px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+img {
+    height: 300px;
+    padding: 15px;
+    border: 1px solid rgb(107, 102, 102);
+    margin: 10px;
+}
+
+img:hover {
+    height: 320px;
+    border: 0px;
+    background-color: rgb(15, 147, 147);
+}
+
+main {
+    background-color: black;
+}
